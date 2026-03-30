@@ -190,5 +190,20 @@ Day 1: Architecture and system definition completed
 
 Next: Service implementation and integration layer setup
 
+# Services
+
+This directory contains independent backend services used in the system.
+
+## user-service
+
+Handles user-related data and retrieval.
+
+## order-service
+
+Handles order creation and retrieval.
+
+Each service runs independently and communicates through the integration layer.
+
+
 
 
